@@ -1,0 +1,138 @@
+#ul-1{
+    margin-left: 30em;
+}
+
+.pos-f-t{
+    display: none;
+}
+
+#articles{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.card-link{
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.card-link:hover{
+    transform: scale(1.08,1.08);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.mt50p {
+margin-top: 30%;
+}
+.mt70p {
+margin-top: -25%;
+}
+
+.bg-color{
+    background-color: #f5f5f7;
+}
+
+#card-button{
+    padding-top: 8em;
+    padding-left: 14em;
+}
+
+#reviews{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.review-size{
+    width: 100%;
+    height: 50%;
+}
+
+.fas{
+    font-size: 50%;
+} 
+
+.fa-quote-left{
+    vertical-align: top;
+}
+
+.fa-quote-right{
+    vertical-align: bottom;
+}
+
+.fa-phone:hover{
+    color: darkgoldenrod !important;
+}
+
+.fa-envelope:hover{
+    color: cyan !important;
+}
+
+.fa-map-marker:hover{
+    color: green !important;
+}
+
+.fa-instagram-square:hover{
+    color: pink !important;
+}
+
+.navbar-position{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.form-size{
+    width: 18em;
+}
+
+#login{
+    margin-top: 8em;
+    padding-bottom: 4em;
+}
+
+.services-img{
+    max-width: 6.5em;
+    margin-bottom: -10%;
+    position: relative;
+    z-index: 2;
+    margin-left: 27%;
+    border: 5px solid;
+    border-color: white;
+}
+
+.card-title-position{
+    padding-top: 1em;
+    padding-left: 4em;
+}
+
+@media only screen and (max-width:1000px){
+    .pos-f-t{
+        display: initial;
+    }
+    #navbar1{
+        display: none;
+    }
+    .mt50p{
+        margin-top: 15%;
+    }
+    .mt70p{
+        margin-top: 15%;
+    }
+    #card-button{
+        padding-top: 2em;
+        padding-left: 10em;
+    }
+    #responsive-review{
+        margin-top: 10%;
+    }
+    .responsive-reviews{
+        padding: 1em;
+    }
+    .responsive-reviews img{
+        width: 135%;
+    }
+    .responsive-services{
+        margin-left: 6%;
+    }
+}
