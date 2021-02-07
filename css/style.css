@@ -101,11 +101,6 @@ margin-top: -25%;
     border-color: white;
 }
 
-.card-title-position{
-    padding-top: 1em;
-    padding-left: 4em;
-}
-
 @media only screen and (max-width:1000px){
     .pos-f-t{
         display: initial;
@@ -121,7 +116,7 @@ margin-top: -25%;
     }
     #card-button{
         padding-top: 2em;
-        padding-left: 10em;
+        padding-left: 7em;
     }
     #responsive-review{
         margin-top: 10%;
@@ -133,6 +128,9 @@ margin-top: -25%;
         width: 135%;
     }
     .responsive-services{
-        margin-left: 6%;
+        margin-left: 7%;
+    }
+    .services-img{
+        display: block;
     }
 }
