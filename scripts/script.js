@@ -5,3 +5,12 @@ jQuery(function ($) {
     parent.find(".services").toggleClass("hide");
   });
 });
+
+$(document).ready(function() {
+
+  var $submit = $("#btn-sub").hide(),
+      $cbs = $('input[name="prog"]').click(function() {
+          $submit.toggle( $cbs.is(":checked") );
+      });
+
+});
