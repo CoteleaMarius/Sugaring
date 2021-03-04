@@ -1,0 +1,24 @@
+h5{
+    font-size: 40px;
+}
+
+.h4-class{
+    margin-top: -30px;
+}
+
+input[type=radio] {
+    transform: scale(1.5);
+}
+
+.bg-activia{
+    background-color: #e8e8ec;
+}
+
+@media only screen and (max-width:600px){
+    h5{
+        font-size: 25px;
+    }
+    .card-responsive-5{
+        padding-top: 5%;
+    }
+}
