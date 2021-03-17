@@ -6,13 +6,11 @@ jQuery(function ($) {
   });
 });
 
-$(document).ready(function() {
-
+$(document).ready(function () {
   var $submit = $("#btn-sub").hide(),
-      $cbs = $('input[name="prog"]').click(function() {
-          $submit.toggle( $cbs.is(":checked") );
-      });
-
+    $cbs = $('input[name="prog"]').click(function () {
+      $submit.toggle($cbs.is(":checked"));
+    });
 });
 
 $(".carousel").carousel({
