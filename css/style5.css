@@ -1,123 +1,275 @@
-h5{
-    font-size: 40px;
+h5 {
+  font-size: 40px;
 }
 
-.h4-class{
-    margin-top: -30px;
+.h4-class {
+  margin-top: -30px;
 }
 
-.bg-activia{
-    background-color: white;
-	width: 9.85em;
+.bg-activia {
+  background-color: white;
+  width: 9.85em;
 }
 
-.btn-secondary{
-	background-color: #cfcccc;
+.btn-secondary {
+  background-color: #cfcccc;
 }
 
-.card-header-2{
-    height: 2.6em;
+.card-header-2 {
+  height: 2.6em;
 }
 
-.h4-cards{
-    font-size: 20px;
+.h4-cards {
+  font-size: 20px;
 }
 
-.modal-confirm {		
-	color: #434e65;
-	width: 525px;
+.modal-confirm {
+  color: #434e65;
+  width: 525px;
 }
 .modal-confirm .modal-content {
-	padding: 20px;
-	font-size: 16px;
-	border-radius: 5px;
-	border: none;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
 }
 .modal-confirm .modal-header {
-	background: #47c9a2;
-	border-bottom: none;   
-	position: relative;
-	text-align: center;
-	margin: -20px -20px 0;
-	border-radius: 5px 5px 0 0;
-	padding: 35px;
+  background: #47c9a2;
+  border-bottom: none;
+  position: relative;
+  text-align: center;
+  margin: -20px -20px 0;
+  border-radius: 5px 5px 0 0;
+  padding: 35px;
 }
 .modal-confirm h4 {
-	text-align: center;
-	font-size: 36px;
-	margin: 10px 0;
+  text-align: center;
+  font-size: 36px;
+  margin: 10px 0;
 }
-.modal-confirm .form-control, .modal-confirm .btn {
-	min-height: 40px;
-	border-radius: 3px; 
+.modal-confirm .form-control,
+.modal-confirm .btn {
+  min-height: 40px;
+  border-radius: 3px;
 }
 .modal-confirm .close {
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	color: #fff;
-	text-shadow: none;
-	opacity: 0.5;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 0.5;
 }
 .modal-confirm .close:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 .modal-confirm .icon-box {
-	color: #fff;		
-	width: 95px;
-	height: 95px;
-	display: inline-block;
-	border-radius: 50%;
-	z-index: 9;
-	border: 5px solid #fff;
-	padding: 15px;
-	text-align: center;
+  color: #fff;
+  width: 95px;
+  height: 95px;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 9;
+  border: 5px solid #fff;
+  padding: 15px;
+  text-align: center;
 }
 .modal-confirm .icon-box i {
-	font-size: 64px;
-	margin: -4px 0 0 -4px;
+  font-size: 64px;
+  margin: -4px 0 0 -4px;
 }
 .modal-confirm.modal-dialog {
-	margin-top: 80px;
+  margin-top: 80px;
 }
-.modal-confirm .btn, .modal-confirm .btn:active {
-	color: #fff;
-	border-radius: 4px;
-	background: #eeb711 !important;
-	text-decoration: none;
-	transition: all 0.4s;
-	line-height: normal;
-	border-radius: 30px;
-	margin-top: 10px;
-	padding: 6px 20px;
-	border: none;
+.modal-confirm .btn,
+.modal-confirm .btn:active {
+  color: #fff;
+  border-radius: 4px;
+  background: #eeb711 !important;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 6px 20px;
+  border: none;
 }
-.modal-confirm .btn:hover, .modal-confirm .btn:focus {
-	background: #eda645 !important;
-	outline: none;
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+  background: #eda645 !important;
+  outline: none;
 }
 .modal-confirm .btn span {
-	margin: 1px 3px 0;
-	float: left;
+  margin: 1px 3px 0;
+  float: left;
 }
 .modal-confirm .btn i {
-	margin-left: 1px;
-	font-size: 20px;
-	float: right;
+  margin-left: 1px;
+  font-size: 20px;
+  float: right;
 }
 .trigger-btn {
-	display: inline-block;
-	margin: 100px auto;
+  display: inline-block;
+  margin: 100px auto;
 }
 
-@media only screen and (max-width:600px){
-    h5{
-        font-size: 25px;
-    }
-    .card-responsive-5{
-        padding-top: 5%;
-    }
-	.bg-activia{
-		width: 19em;
-	}
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Cookie", cursive;
+  margin: 0;
+}
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h5 {
+    font-size: 25px;
+  }
+  .card-responsive-5 {
+    padding-top: 5%;
+  }
+  .bg-activia {
+    width: 19em;
+  }
 }

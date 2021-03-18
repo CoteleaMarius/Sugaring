@@ -105,6 +105,10 @@
   padding-top: 2em;
 }
 
+#row-padding{
+  margin-left: 2em;
+}
+
 @media only screen and (max-width: 1000px) {
   .pos-f-t {
     display: initial;
@@ -136,5 +140,8 @@
   }
   .services-img {
     display: block;
+  }
+  #row-padding{
+    margin-left: -1em;
   }
 }
