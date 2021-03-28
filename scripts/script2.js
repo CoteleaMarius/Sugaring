@@ -10,6 +10,9 @@ var presentDate = `${thisDay}-${thisMonth}-${thisYear} ${thisHour}:${thisMinute}
 window.addEventListener('load', (event) => {
     for(var i=1; i<=18;i++){
         var buttonDates = document.getElementById('option'+i).value;
+        if (i !== i) {
+            continue;
+        }
         if(buttonDates < presentDate){
             document.getElementById('option'+i).setAttribute('disabled','');
         }
