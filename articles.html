@@ -28,25 +28,64 @@
       href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style5.css">
   </head>
   <body>
-    <main role="main">
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Articole</h1>
-          <p class="lead text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-            necessitatibus. Perspiciatis iusto ullam modi enim delectus odio
-            eligendi. Dolorem doloremque ipsa quibusdam soluta vero cum.
-          </p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Buton 1</a>
-            <a href="#" class="btn btn-secondary my-2">Buton 2</a>
-          </p>
+    <nav class="navbar bg-info navbar-expand navbar-position" id="navbar1">
+      <a href="#" class="navbar-brand ml-5 mt-2 mb-2 text-light">LOGO</a>
+      <ul class="navbar-nav" id="ul-1">
+        <li class="nav-item">
+          <a href="login.html" class="nav-link text-light mr-5 mt-2 mb-2"
+            >Autentificare</a
+          >
+        </li>
+        <li class="nav-item">
+        <li class="nav-item">
+          <a href="appointment.html" class="nav-link text-light mr-5 mt-2 mb-2">Programări</a>
+        </li>
+        <li class="nav-item">
+          <a href="articles.html" class="nav-link text-light mr-5 mt-2 mb-2"
+            >Articole</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="pos-f-t">
+      <nav class="navbar navbar-dark bg-info">
+        <a href="#" class="navbar-brand text-light" id="LOGO">LOGO</a>
+        <button
+          class="navbar-toggler justify-content-end"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-info p-4">
+          <ul class="navbar-nav d-flex align-items-center">
+            <li class="nav-item">
+              <a href="login.html" class="nav-link text-light">Autentificare</a>
+            </li>
+            <li class="nav-item">
+              <a href="appointment.html" class="nav-link text-light">Programări</a>
+            </li>
+            <li class="nav-item">
+              <a href="articles.html" class="nav-link text-light">Articole</a>
+            </li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </div>
+    <main role="main">
       <div class="album py-5 bg-light">
         <div class="container">
+          <h1 class="jumbotron-heading d-flex justify-content-center pb-3">Articole</h1>
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
@@ -572,20 +611,47 @@
       </div>
     </main>
 
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#"><i class="fa fa-arrow-up fa-3x"></i></a>
+    <div class="footer-distributed">
+      <div class="footer-left">
+        <h3>Logo</h3>
+        <p class="footer-links">
+          <a href="#">Acasa</a>
+          ·
+          <a href="#">Servicii</a>
+          ·
+          <a href="#">Articole</a>
+          ·
+          <a href="#">Despre noi</a>
+          ·
+          <a href="#">Programare</a>
         </p>
-        <p>
-          <span class="far fa-copyright"></span>Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Sed, sapiente?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt rem
-          odit nemo!
-        </p>
+        <p class="footer-company-name">Sugaring &copy; 2021</p>
       </div>
-    </footer>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>str.Independentei 3/2</span>Chisinau, Moldova</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <a href="tel:+37360518234"><p>+37360518234</p></a>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:motanelulmionica@mail.ru"><span>motanelulmionica@mail.ru</span></a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About us</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+          vehicula sit amet.
+        </p>
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
