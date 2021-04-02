@@ -275,4 +275,8 @@
   .bg-activia {
     width: 19em;
   }
+  .modal-dialog{
+    max-width: 600px;
+    width: auto;
+  }
 }
