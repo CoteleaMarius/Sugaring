@@ -13,8 +13,23 @@ function test(clickedId) {
   let thisYear = new Date().getFullYear();
   let thisHour = new Date().getHours();
   let thisMinute = new Date().getMinutes();
-  if (document.getElementById(clickedId).value < thisDay || document.getElementById(clickedId).title < thisMonth || document.getElementById(clickedId).size < thisYear || document.getElementById(clickedId).slot < thisHour || document.getElementById(clickedId).lang < thisMinute){
+
+if(document.getElementById(clickedId).size<thisYear){
+  document.getElementById(clickedId).setAttribute('disabled', '');
+  document.getElementById(clickedId).checked = false;
+};
+
+if(document.getElementById(clickedId).value < thisDay){
+  if(document.getElementById(clickedId).title < thisMonth){
     document.getElementById(clickedId).setAttribute('disabled', '');
     document.getElementById(clickedId).checked = false;
   };
-}
+};
+
+if(document.getElementById(clickedId).lang < thisMinute){
+  if(document.getElementById(clickedId).slot <= thisHour){
+    document.getElementById(clickedId).setAttribute('disabled', '');
+    document.getElementById(clickedId).checked = false;
+  };
+};
+};
